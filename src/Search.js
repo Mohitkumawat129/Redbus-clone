@@ -57,7 +57,7 @@ const Search = () => {
               style={{ borderRadius: "50%", border: "2px solid black" }}
               onClick={Switch}
             >
-              switch
+              switch cities
               {/* <SwapHorizIcon style={{ fontSize: "3rem" }} /> */}
             </button>
             <input

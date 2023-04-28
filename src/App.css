@@ -186,7 +186,7 @@ button {
   left: 5vw;
   top: 5vh;
 }
-@media (max-width: 1250px) {
+@media (max-width: 1300px) {
   .search_bar form input {
     font-size: 1.5rem;
     height: 2.5rem;
@@ -202,11 +202,11 @@ button {
     width: 25vw;
   }
 }
-@media (max-width: 950px) {
+@media (max-width: 1050px) {
   .search_bar form button {
     position: absolute;
     left: 35vw;
-    top: 23vh;
+    top: 15vh;
   }
   .search_bar form .input_field {
     width: 100vw;
