@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink, useParams } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { useGlobalContext } from "./Context";
 const List = () => {
   const [error, setError] = useState("");

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useGlobalContext } from "./Context";
 import { NavLink } from "react-router-dom";
-// import SwapHorizIcon from "@mui/icons-material/SwapHoriz";
 const Search = () => {
   const [path, setPath] = useState();
   const {
@@ -24,7 +23,7 @@ const Search = () => {
     } else if (date === undefined) {
       alert("Please fill date");
     } else {
-      setPath("/signUp");
+      setPath("/bus");
     }
     /* If source and destination are not in our api */
     const filterBus = [...bus].filter((val) => {
@@ -53,10 +52,7 @@ const Search = () => {
               value={sourceQuery}
               onChange={(event) => setSourceQuery(event.target.value)}
             />
-            <button
-              style={{ borderRadius: "50%", border: "2px solid black" }}
-              onClick={Switch}
-            >
+            <button style={{ border: "2px solid black" }} onClick={Switch}>
               switch cities
               {/* <SwapHorizIcon style={{ fontSize: "3rem" }} /> */}
             </button>
